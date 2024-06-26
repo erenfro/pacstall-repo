@@ -4,7 +4,6 @@ pkgver="3.9.1.60010"
 repology=("project: insync")
 depends=("procps")
 arch=('amd64')
-sha256sums=("c7ec225d000932a3b7b093b9b0d3c1c69c2de2c35ac680d9a4ca95d1ca2af185")
 sha256sums_focal=("166bb1d1e729f3cbbcb3cdc8c966a35b38c1202a733bcb6eaec99e5d7c9cd022")
 sha256sums_jammy=("63a87075cd153e2807ff4975ef71b28958570e3a61d9d7b3cf2fd95483f9b45d")
 sha256sums_noble=("c9a9e261648d36b2c049f74317fff99692c39b7ca6bf8546fdf32b95dc80580a")
