@@ -19,6 +19,7 @@ source=("https://cdn.insynchq.com/builds/linux/${pkgver}/insync_${pkgver}-${DIST
 source_focal=("https://cdn.insynchq.com/builds/linux/${pkgver}/insync_${pkgver}-focal_amd64.deb")
 source_jammy=("https://cdn.insynchq.com/builds/linux/${pkgver}/insync_${pkgver}-jammy_amd64.deb")
 source_noble=("https://cdn.insynchq.com/builds/linux/${pkgver}/insync_${pkgver}-noble_amd64.deb")
+source_oracular=("${source_noble[@]}")
 source_devel=("${source_noble[@]}")
 source_buster=("https://cdn.insynchq.com/builds/linux/${pkgver}/insync_${pkgver}-buster_amd64.deb")
 source_bullseye=("https://cdn.insynchq.com/builds/linux/${pkgver}/insync_${pkgver}-bullseye_amd64.deb")

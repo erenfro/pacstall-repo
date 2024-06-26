@@ -11,6 +11,7 @@ repology = project: insync
 source_focal = https://cdn.insynchq.com/builds/linux/3.9.1.60010/insync_3.9.1.60010-focal_amd64.deb
 source_jammy = https://cdn.insynchq.com/builds/linux/3.9.1.60010/insync_3.9.1.60010-jammy_amd64.deb
 source_noble = https://cdn.insynchq.com/builds/linux/3.9.1.60010/insync_3.9.1.60010-noble_amd64.deb
+source_oracular = https://cdn.insynchq.com/builds/linux/3.9.1.60010/insync_3.9.1.60010-noble_amd64.deb
 source_devel = https://cdn.insynchq.com/builds/linux/3.9.1.60010/insync_3.9.1.60010-noble_amd64.deb
 source_buster = https://cdn.insynchq.com/builds/linux/3.9.1.60010/insync_3.9.1.60010-buster_amd64.deb
 source_bullseye = https://cdn.insynchq.com/builds/linux/3.9.1.60010/insync_3.9.1.60010-bullseye_amd64.deb
