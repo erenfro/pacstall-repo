@@ -20,12 +20,11 @@ source_ppc64el=("https://github.com/creativeprojects/resticprofile/releases/down
 source_riscv64=("https://github.com/creativeprojects/resticprofile/releases/download/v${pkgver}/resticprofile_${pkgver}_linux_riscv64.tar.gz")
 source_s390x=("https://github.com/creativeprojects/resticprofile/releases/download/v${pkgver}/resticprofile_${pkgver}_linux_s390x.tar.gz")
 pkgdesc="Configuration profiles manager for restic backup"
-url="https://github.com/creativeprojects/resticprofile"
+url='https://github.com/creativeprojects/resticprofile'
 maintainer=("Eric Renfro <psi-jack@linux-help.org>")
 
 package() {
-  cd "${_archive}"
-  # Install binary
+  cd "${srcdir}"
   install -Dm755 "${gives}" "${pkgdir}/usr/bin/${gives}"
   install -Dm644 README.md -t "${pkgdir}/usr/share/doc/${gives}"
   install -Dm644 LICENSE -t "${pkgdir}/usr/share/licenses/${gives}"
