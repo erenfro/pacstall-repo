@@ -3,8 +3,8 @@ pkgver="0.10.0"
 pkgrel="1"
 source=(
   "https://github.com/neovim/neovim/archive/refs/tags/v${pkgver}.tar.gz"
-  "https://raw.githubusercontent.com/erenfro/pacstall-repo/master/packages/neovim/nview"
-  "https://raw.githubusercontent.com/erenfro/pacstall-repo/master/packages/neovim/nvimdiff"
+  "nview"
+  "nvimdiff"
 
 )
 url='https://neovim.io/'
