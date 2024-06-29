@@ -13,8 +13,8 @@ replaces=("neovim" "nvim" "neovim-runtime")
 pkgdesc="Neovim is a vim fork maintained by the community"
 sha256sums=(
   "372ea2584b0ea2a5a765844d95206bda9e4a57eaa1a2412a9a0726bab750f828"
-  "781fe7cbcf3b06eb367af6143aef9795dea1b85125cd8535bd3e10a25eaf4090"
-  "9c612682d1b7032eb09cb3a401e3ef2257c1a5d3ec995d9348ff1e1c04ba17bc"
+  "2333e46dfa12daa43706b101d8f179a5a81ee08c89530a45bba9c91ae6bc7c7c"
+  "dfc7caa96d5906bdd334ce85a2edd632f0f3f8b75e3f35d92fb182d8dfe16077"
 )
 maintainer=("Elsie19 <elsie19@pm.me>")
 external_connection=true
