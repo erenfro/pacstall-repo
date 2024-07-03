@@ -1,5 +1,6 @@
 pkgname = grub-btrfs
 pkgver = 4.13
+pkgrel = 2
 pkgdesc = Include btrfs snapshots in GRUB boot options
 url = https://github.com/Antynea/grub-btrfs
 source = grub-btrfs-4.13.tar.gz::https://github.com/Antynea/grub-btrfs/archive/4.13.tar.gz
@@ -7,6 +8,7 @@ depends = btrfs-progs
 depends = grub2-common
 optdepends = snapper: For snapper support
 optdepends = inotify-tools: For grub-btrfsd daemon
+provides = grub-btrfs
 backup = etc/default/grub-btrfs/config
 license = GPL-3.0-only
 maintainer = Eric Renfro <psi-jack@linux-help.org

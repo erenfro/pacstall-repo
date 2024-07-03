@@ -1,5 +1,7 @@
-pkgname=grub-btrfs
-pkgver=4.13
+pkgname="grub-btrfs"
+pkgver="4.13"
+pkgrel="2"
+provides=("${pkgname}")
 pkgdesc='Include btrfs snapshots in GRUB boot options'
 url='https://github.com/Antynea/grub-btrfs'
 license=('GPL-3.0-only')
