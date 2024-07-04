@@ -1,6 +1,6 @@
 pkgname = neovim
 pkgver = 0.10.0
-pkgrel = 1
+pkgrel = 2
 pkgdesc = Neovim is a vim fork maintained by the community
 url = https://neovim.io/
 source = https://github.com/neovim/neovim/archive/refs/tags/v0.10.0.tar.gz

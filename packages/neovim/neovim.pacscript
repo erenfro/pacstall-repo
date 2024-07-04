@@ -1,6 +1,6 @@
 pkgname="neovim"
 pkgver="0.10.0"
-pkgrel="1"
+pkgrel="2"
 source=(
   "https://github.com/neovim/neovim/archive/refs/tags/v${pkgver}.tar.gz"
   "ex"
