@@ -1,6 +1,7 @@
 pkgname="neovim-git"
 gives="neovim"
 pkgver="0.10.1"
+repology=("project: ${gives}")
 source=(
   "https://github.com/neovim/neovim.git"
   "ex"

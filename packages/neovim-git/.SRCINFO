@@ -33,6 +33,7 @@ replaces = neovim-app
 replaces = neovim-deb
 replaces = neovim-bin
 maintainer = Elsie19 <elsie19@pm.me>
+repology = project: neovim
 sha256sums = SKIP
 sha256sums = 5d3178628afc39f0318638cad19e9ad06ada89926dfb263e93ab35cc8f60e911
 sha256sums = f04c9baa97f49afe7969826b45e283c60e2d52e28aa3ea7fa93a62dab0408a55
