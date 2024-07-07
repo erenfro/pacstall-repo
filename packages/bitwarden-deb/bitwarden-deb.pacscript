@@ -1,0 +1,11 @@
+pkgname="bitwarden-deb"
+gives="bitwarden"
+breaks=("${gives}-app" "${gives}-git")
+replaces=("${gives}")
+pkgver="2024.6.4"
+source=("https://github.com/${gives}/clients/releases/download/desktop-v${pkgver}/Bitwarden-${pkgver}-amd64.deb")
+pkgdesc="Open Source Password Manager"
+sha256sums=("765115154cf12f1248437217b404745dfac37be04191bf8f98225dcdd53294fe")
+arch=('amd64')
+maintainer=("Oren Klopfer <oren@taumoda.com>")
+repology=("project: bitwarden")
